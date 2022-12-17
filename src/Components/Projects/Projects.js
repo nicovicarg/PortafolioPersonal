@@ -69,12 +69,13 @@ class Projects extends React.Component{
   render(){
     return(
       <div id="container-containerXD">
-        <div id="pro-container">
         <span onClick={this.decrease}>&lt;</span>
+        <div id="pro-container">
+        
         <div id="foto-proyecto">{this.state.proyects[this.state.current].photo}</div>
         <div id="info-proyecto">
-          <h3>{this.state.proyects[this.state.current].title}</h3>
-          <h4>{this.state.proyects[this.state.current].subtitle}</h4>
+          <p>{this.state.proyects[this.state.current].title}</p>
+          <p>{this.state.proyects[this.state.current].subtitle}</p>
           <div id="description">
             {this.state.proyects[this.state.current].description.map(element=>{
       return (<p>{element}</p>)
@@ -82,13 +83,14 @@ class Projects extends React.Component{
           </div>
           
         </div>
-        <span onClick={this.increase}>&gt;</span>
-      </div>
-      <div id="contenedor-cajitas">
+        <div id="contenedor-cajitas">
         {this.state.proyects.map(element => {
           return (<div id="cajita"></div>)
         })}
       </div>
+      </div>
+      <span onClick={this.increase}>&gt;</span>
+      
       </div>
       
     );

@@ -42,7 +42,7 @@ class Navbar extends React.Component {
         <li className='li' onClick={this.handleContact}>Contacto</li> 
       </ul>
       </nav>
-      <hr/>
+      
       </div>
     );
   }

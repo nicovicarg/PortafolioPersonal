@@ -31,16 +31,14 @@
     align-items: center;
     width: 70%;
     height: 100%;
+    margin: 0px;
   }
   .li {
     list-style: none;
     font-size: 1.2vh;
   }
 
-  #nav-container hr {
-    color: rgb(99, 130, 255);
-    border: solid 1px rgb(99, 130, 255);
-  }
+  
 }
 
 /* Tablet*/
