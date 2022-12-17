@@ -46,8 +46,8 @@ class Curriculum extends React.Component {
         </div>
 
         <div id="partes">
+          <ul className="ul">
           <p>Diseño Web Responsable</p>
-          <ul>
             <li>Bases de HTML5</li>
             <li>CSS Básico</li>
             <li>Diseño Visual Aplicado</li>
@@ -56,7 +56,7 @@ class Curriculum extends React.Component {
             <li>CSS Flexbox</li>
             <li>CSS Grid</li>
           </ul>
-            <ul>
+            <ul className="ul">
               <p>JS Algoritmos y Estructura De Datos</p>
               <li>JS Básico</li>
               <li>ES6</li>
@@ -68,7 +68,7 @@ class Curriculum extends React.Component {
               <li>Programación Funcional</li>
               <li>Algoritmos intermedios de Scripting</li>
             </ul>
-            <ul>
+            <ul className="ul">
               <p>Librerias de Desarrollo Front End</p>
               <li>Bootstrap</li>
               <li>jQuery</li>
