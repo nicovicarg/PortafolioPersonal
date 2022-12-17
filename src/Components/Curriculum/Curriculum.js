@@ -23,7 +23,7 @@ class Curriculum extends React.Component {
           </div>
 
           <div id="skills">
-            <ul id="ul">
+            <ul className="ul">
               <li>Soy el mejor en todo</li>
               <li>Trabajo 30 horas diarias</li>
               <li>No me aburro nunca</li>
