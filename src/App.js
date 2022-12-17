@@ -1,25 +1,27 @@
-import logo from './logo.svg';
+import React from "react"
 import './App.css';
+import Footer from './Components/Footer/Footer'
+import Navbar from "./Components/Nav/Navbar";
+import Projects from "./Components/Projects/Projects"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <h1>Funciona!!</h1>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+/*Componente App*/
+
+class App extends React.Component{
+  
+  render(){
+    return (
+      <div id="principal">
+         <Navbar />
+         <div id='container'>
+          <Projects />
+         </div>
+         <Footer />
+      </div>
+    );
+  }
 }
 
-export default App;
+
+
+export default App
