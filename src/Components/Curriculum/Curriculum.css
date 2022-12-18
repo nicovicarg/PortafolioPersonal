@@ -24,12 +24,12 @@
     margin-bottom: 10px
   }
   #partes{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding-left: 10vh;
     padding-right: 10vh;
+  
   }
   #partetres {
     border-radius: 20px;
@@ -103,7 +103,85 @@
 
 /* Tablet*/
 @media (min-width: 678px) and (max-width: 1439px){
+  #curriculum-container {
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    margin-top: 2vw;
+  }
+  #curriculum-container p{
+    font-size: 1.05vw;
+  }
+  .partes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+  }
+  #partes {
+    overflow-y: scroll;
+  }
+  #partes::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+  #partes::-webkit-scrollbar-thumb {
+    background-color:  #A5C9CA;
+    border-radius: 20px;
+    border: 2px solid #395B64;
+}
+  #partetres {
+    border-radius: 20px;
+    padding: 3vw;
+    background-color: #395B64;
+    color: white ;
+  }
+  #btn {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 12px;
+  }
+  /*technologies*/
+  #parteuno {
+    border: solid 3px #395B64;
+    border-radius: 16px;
+    background-color: #A5C9CA;
+  }
+  #technologies {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #profile-pic {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    border: solid 2px #395B64;
+  }
+  .tech-icon {
+    width: 5vh;
+    height: 5vh;
+  }
+  #ul li {
+    list-style: none;
+    font-size: 1.1vw;
+  }
 
+  #partes p {
+    font-size: 1.5vw;
+  }
+  #header-card {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+  
+  }
+  #btn {
+    border: none;
+  }
 }
 
 /* Desktop*/
@@ -112,6 +190,7 @@
   #curriculum-container {
     display: flex;
     justify-content: space-around;
+    height: 80vh;
   }
   #curriculum-container p{
     font-size: 1.05vw;

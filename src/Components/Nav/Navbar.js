@@ -9,14 +9,10 @@ import Contact from "../Contact/Contact"
 class Navbar extends React.Component {
   constructor(props){
     super(props);
-    this.handleAbout = this.handleAbout.bind(this);
     this.handleProjects = this.handleProjects.bind(this);
     this.handleCurriculum = this.handleCurriculum.bind(this);
-    this.handleContact = this.handleContact.bind(this)
+    this.handleContact = this.handleContact.bind(this);
   
-  }
-  handleAbout(){
-    ReactDOM.render(<About/>, document.getElementById("container"))
   }
   handleProjects(){
     ReactDOM.render(<Projects/>, document.getElementById("container"))
@@ -38,7 +34,6 @@ class Navbar extends React.Component {
         <ul>
         <li className='li' onClick={this.handleCurriculum}>Curriculum</li> 
         <li className='li' onClick={this.handleProjects}>Proyectos</li>
-        <li className='li' onClick = {this.handleAbout}>Sobre mi</li>
         <li className='li' onClick={this.handleContact}>Contacto</li> 
       </ul>
       </nav>

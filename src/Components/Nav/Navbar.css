@@ -45,7 +45,45 @@
 
 /* Tablet*/
 @media (min-width: 678px) and (max-width: 1439px){
+  #navbar {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    background-color: #2C3333;
+    color: #E7F6F2;
+    
+  }
+  #navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    background-color: #2C3333;
+    color: #E7F6F2;
+  }
 
+  #span-navbar {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4vh;
+  }
+  #navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin: 0px;
+  }
+  .li {
+    list-style: none;
+    font-size: 1.2vh;
+  }
+
+  
 }
 
 /* Desktop*/
@@ -53,10 +91,11 @@
 @media (min-width: 1440px){
   #navbar {
     width: 100%;
-    height: 10vh;
+    height: 68px;
     display: flex;
     background-color: #2C3333;
     color: #E7F6F2;
+    position: fixed;
   }
 
   #span-navbar {

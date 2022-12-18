@@ -78,13 +78,6 @@ class Curriculum extends React.Component {
               <li>React and Redux</li>
             </ul>
         </div>
-        <div className="partes" id="partetres">
-          <p>Aca tipo como que iria todo lo que se hacer y las tareas que realizo dentro del desarrollo de las aplicaciones.</p>
-          <p>Me encargo del maquetado, diseño y programación de las aplicaciones que se me ocurren o encuentro en challenges</p>
-          <p>Por lo general me suelo demorar muchas horas debido a que utilizo mucho tiempo en investigar cosas basicas que me faltan pulir, pero no me detengo.</p>
-          <p>Aca pongo un poquito mas de texto para rellenar y aprovechar a practicar con mi teclado mecanico nuevo</p>
-          <button id="btn">Descargar CV</button>
-        </div>
 
       </div>
     );
