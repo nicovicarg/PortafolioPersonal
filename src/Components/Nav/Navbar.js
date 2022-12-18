@@ -1,28 +1,17 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import "./Navbar.css"
-import About from "../About/About"
+import Home from "../Home/Home"
 import Projects from "../Projects/Projects"
-import Curriculum from "../Curriculum/Curriculum"
+
 import Contact from "../Contact/Contact"
 
 class Navbar extends React.Component {
   constructor(props){
     super(props);
-    this.handleProjects = this.handleProjects.bind(this);
-    this.handleCurriculum = this.handleCurriculum.bind(this);
-    this.handleContact = this.handleContact.bind(this);
   
   }
-  handleProjects(){
-    ReactDOM.render(<Projects/>, document.getElementById("container"))
-  }
-  handleCurriculum(){
-    ReactDOM.render(<Curriculum/>, document.getElementById("container"))
-  }
-  handleContact(){
-    ReactDOM.render(<Contact/>, document.getElementById("container"))
-  }
+  
   
   
   render(){
@@ -32,10 +21,10 @@ class Navbar extends React.Component {
         <nav id="navbar">
         <span id='span-navbar'>04:20</span>
         <ul>
-        <li className='li' onClick={this.handleCurriculum}>Curriculum</li> 
-        <li className='li' onClick={this.handleProjects}>Proyectos</li>
-        <li className='li' onClick={this.handleContact}>Contacto</li> 
-      </ul>
+          <li className='li'>Home</li> 
+          <li className='li'>Proyectos</li>
+          <li className='li'>Contacto</li> 
+        </ul>
       </nav>
       
       </div>

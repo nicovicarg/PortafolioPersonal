@@ -13,10 +13,18 @@
 
 @media (min-width: 1440px){
   #presentacion {
+    width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 68px;
+    background-color: #2C3333;
+    color:#E7F6F2;
+  }
+  #developer {
+    color: #395B64;
+    font-size: 38px;
   }
 }

@@ -7,21 +7,21 @@ class Contact extends React.Component {
       <div id='contact-container'>
         <div id="mensaje-contact">Ya dame el maldito trabajo XD</div>
         <div id='redes'>
-          <a>
+          <a className="anchor">
             <i class="fab fa-facebook-square fa-2x"></i>
-            Facebook
+            <p>Facebook</p>
           </a>
-          <a>
+          <a  className="anchor">
             <i class="fab fa-github fa-2x"></i>
-            Github
+            <p>Github</p>
           </a>
-          <a>
+          <a className="anchor">
             <i class="fab fa-twitter fa-2x"></i>
-            Twitter
+            <p>Twitter</p>
           </a>
-          <a>
+          <a className="anchor">
             <i class="fas fa-at fa-2x"></i>
-            E-mail
+            <p>E-mail</p>
           </a>
         </div>
         
