@@ -2,17 +2,17 @@
 
 @media (max-width: 677px){
   #contact-container {
-    height: 95vh;
-    padding-top: 10vh;
+    background-color: yellow;
+    width: 100%;
+    height: 100vh;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   #redes {
-    background-color:#E7F6F2;
-  
-    border: solid 1px red;
+    
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,44 +29,8 @@
     color: white;
    
   }
-  #form {
-    width: 90%;
-    height: 60vh;
-    background-color: #395B64;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3vw;
-    color: white;
-  }
-  #form textarea {
-    height: 20vh;
-  }
-  #form button {
-    width: 20%;
-  }
-  #form label {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.01vw;
-    
-  }
-  .form-inputs {
-    width: 70vw;
-    height: 3vh;
-    border-radius: 4px;
-    border: none;
-    margin-top: 10px;
-    font-size: 1.01vw;
-    padding: 0.4vw;
-  }
-  #text-area {
-    color: #395B64;
-    outline: none;
-    resize: none;
-  }
+  
+  
 }
 
 /* Tablet*/
@@ -79,14 +43,21 @@
 @media (min-width: 1440px){
   
   #contact-container {
-    width: 80%;
-    height: 60vh;
+    width: 100%;
+    height: 84vh;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #mensaje-contact {
+    font-size: 2.6vw;
+    font-weight: 700;
   }
   #redes {
-    width: 40%;
-    height: 60vh;
+    width: 100%;
+    background-color: yellow;
+    height: fit-content;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -100,46 +71,6 @@
     align-items: center;
     background-color:#395B64;
   }
-
-  /*Formulario*/ 
-
-  #form {
-    width: 50%;
-    height: 60vh;
-    background-color: #395B64;
-    border-color: orange;
-    border-radius: 6px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3vw;
-    color: white;
-  }
-  #form textarea {
-    height: 20vh;
-  }
-  #form button {
-    width: 20%;
-  }
-  #form label {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.01vw;
-    
-  }
-  .form-inputs {
-    width: 30vw;
-    height: 3vh;
-    border-radius: 4px;
-    border: none;
-    margin-top: 10px;
-    font-size: 1.01vw;
-    padding: 0.4vw;
-  }
-  #text-area {
-    color: #395B64;
-    outline: none;
-    resize: none;
-  }
+  
+  
 }

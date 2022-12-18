@@ -21,20 +21,35 @@ class Projects extends React.Component{
         {
           photo: "Foto 4",
           title : "Proyecto 4",
+        },
+        {
+          photo: "Foto 5",
+          title : "Proyecto 5",
+        },
+        {
+          photo: "Foto 6",
+          title : "Proyecto 6",
         }
       ]
     }
   }
   render(){
     return(
-      <div id="projects-container">
-        {this.state.projects.map(element=>{
-      return (
-      <div className="projects-square">
-        <div className="projects-photo">{element.photo}</div>
-        <div className="projects-title">{element.title}</div>
-      </div>)
-    })}
+      <div id="asd">
+        <p>Algunos de mis trabajos</p>
+        <div id="projects-container">
+          {this.state.projects.map(element=>{
+          return (
+          <div className="projects-square">
+          <div className="projects-photo">{element.photo}</div>
+          <div className="projects-title">{element.title}</div>
+          </div>)
+          })}
+          
+        </div>
+        <div id="ver-todos">
+          Ver todos
+        </div>
       </div>
     );
   }

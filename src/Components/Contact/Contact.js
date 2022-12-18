@@ -5,27 +5,26 @@ class Contact extends React.Component {
   render(){
     return (
       <div id='contact-container'>
+        <div id="mensaje-contact">Ya dame el maldito trabajo XD</div>
         <div id='redes'>
-          <div className="redes">GitHub</div>
-          <div className="redes">LinkedIn</div>
-          <div className="redes">Facebook</div>
-          <div className="redes">Instagram</div>
+          <a>
+            <i class="fab fa-facebook-square fa-2x"></i>
+            Facebook
+          </a>
+          <a>
+            <i class="fab fa-github fa-2x"></i>
+            Github
+          </a>
+          <a>
+            <i class="fab fa-twitter fa-2x"></i>
+            Twitter
+          </a>
+          <a>
+            <i class="fas fa-at fa-2x"></i>
+            E-mail
+          </a>
         </div>
-        <form id='form'>
-          <label>
-          Correo
-          <input className="form-inputs"/>
-          </label>
-          <label>
-            Asunto
-          <input className="form-inputs"></input>
-          </label>
-          <label>
-          Mensaje
-          <textarea className="form-inputs" id="text-area"></textarea>
-          </label>
-          <button>Submit</button>
-        </form>
+        
       </div>
     );
   }

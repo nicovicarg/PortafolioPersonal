@@ -4,7 +4,7 @@ import Footer from './Components/Footer/Footer'
 import Navbar from "./Components/Nav/Navbar"
 import Home from "./Components/Home/Home" 
 import Projects from "./Components/Projects/Projects"
-import Curriculum from "./Components/Curriculum/Curriculum"
+import Contact from "./Components/Contact/Contact"
 
 
 /*Componente App*/
@@ -14,14 +14,14 @@ class App extends React.Component{
   render(){
     return (
       <div id="principal">
-         <Navbar />
-         <div id='container'>
+        <Navbar />
+        <div id='container'>
           <Home/>
           <Projects/>
-          <Curriculum />
-          
-         </div>
-         <Footer />
+          <Contact/>
+          <Footer/>
+        </div>
+        
       </div>
     );
   }
